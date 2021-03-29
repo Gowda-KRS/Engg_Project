@@ -1,0 +1,1 @@
+http://www.allprogrammingtutorials.com/tutorials/reading-writing-files-in-hdfs-using-java-api.php

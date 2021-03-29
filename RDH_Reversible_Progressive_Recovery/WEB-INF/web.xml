@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+<!--Common Servlet Reg. tags-->
+
+<servlet>
+		<servlet-name>DownloadFile</servlet-name>
+		<servlet-class>com.action.common.DownloadFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadFile</servlet-name>
+		<url-pattern>/DownloadFile</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+		<servlet-name>Compose</servlet-name>
+		<servlet-class>com.action.user.Compose</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Compose</servlet-name>
+		<url-pattern>/Compose</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+		<servlet-name>Home</servlet-name>
+		<servlet-class>com.action.admin.Home</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Home</servlet-name>
+		<url-pattern>/Home</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+		<servlet-name>HomeUser</servlet-name>
+		<servlet-class>com.action.user.HomeUser</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HomeUser</servlet-name>
+		<url-pattern>/HomeUser</url-pattern>
+</servlet-mapping>
+
+<servlet>
+		<servlet-name>Encryption</servlet-name>
+		<servlet-class>com.action.user.Encryption</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Encryption</servlet-name>
+		<url-pattern>/Encryption</url-pattern>
+</servlet-mapping>
+
+<servlet>
+		<servlet-name>DecryptionImage</servlet-name>
+		<servlet-class>com.action.user.DecryptionImage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DecryptionImage</servlet-name>
+		<url-pattern>/DecryptionImage</url-pattern>
+</servlet-mapping>
+
+<!--Admin Related tags-->
+
+	<servlet>
+		<servlet-name>GroupDetails1</servlet-name>
+		<servlet-class>com.action.admin.GroupDetails</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GroupDetails1</servlet-name>
+		<url-pattern>/GroupDetails1</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AdminLogin</servlet-name>
+		<servlet-class>com.action.admin.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/AdminLogin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AdminProfile</servlet-name>
+		<servlet-class>com.action.admin.Profile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminProfile</servlet-name>
+		<url-pattern>/AdminProfile</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EditProfile1</servlet-name>
+		<servlet-class>com.action.admin.EditProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditProfile1</servlet-name>
+		<url-pattern>/EditProfile1</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>ChangePass1</servlet-name>
+		<servlet-class>com.action.admin.ChangePass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePass1</servlet-name>
+		<url-pattern>/ChangePass1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UserList</servlet-name>
+		<servlet-class>com.action.admin.UserList</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserList</servlet-name>
+		<url-pattern>/UserList</url-pattern>
+	</servlet-mapping>
+	
+	<!--User  tags-->
+	
+	<servlet>
+		<servlet-name>UserLogin</servlet-name>
+		<servlet-class>com.action.user.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserLogin</servlet-name>
+		<url-pattern>/UserLogin</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>UserRegister</servlet-name>
+		<servlet-class>com.action.user.Register</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserRegister</servlet-name>
+		<url-pattern>/UserRegister</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>UserProfile</servlet-name>
+		<servlet-class>com.action.user.Profile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserProfile</servlet-name>
+		<url-pattern>/UserProfile</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>EditProfile2</servlet-name>
+		<servlet-class>com.action.user.EditProfile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditProfile2</servlet-name>
+		<url-pattern>/EditProfile2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ChangePass2</servlet-name>
+		<servlet-class>com.action.user.ChangePass</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangePass2</servlet-name>
+		<url-pattern>/ChangePass2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GroupDetails</servlet-name>
+		<servlet-class>com.action.user.GroupDetails</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GroupDetails</servlet-name>
+		<url-pattern>/GroupDetails</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>CreateGroup</servlet-name>
+		<servlet-class>com.action.user.CreateGroup</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateGroup</servlet-name>
+		<url-pattern>/CreateGroup</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SendRequest</servlet-name>
+		<servlet-class>com.action.user.SendRequest</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SendRequest</servlet-name>
+		<url-pattern>/SendRequest</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>SaveEncryptedFile</servlet-name>
+		<servlet-class>com.action.user.SaveEncryptedFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveEncryptedFile</servlet-name>
+		<url-pattern>/SaveEncryptedFile</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Encryption & Decryption Info -->
+	
+	<servlet>
+		<servlet-name>EncryptImage</servlet-name>
+		<servlet-class>com.action.user.EncryptImage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EncryptImage</servlet-name>
+		<url-pattern>/EncryptImage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>HideData</servlet-name>
+		<servlet-class>com.action.user.HideData</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HideData</servlet-name>
+		<url-pattern>/HideData</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DecryptImage</servlet-name>
+		<servlet-class>com.action.user.DecryptImage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DecryptImage</servlet-name>
+		<url-pattern>/DecryptImage</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ComposeMail</servlet-name>
+		<servlet-class>com.action.user.ComposeMail</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ComposeMail</servlet-name>
+		<url-pattern>/ComposeMail</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Test</servlet-name>
+		<servlet-class>com.action.user.Test</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Test</servlet-name>
+		<url-pattern>/Test</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>GetkeyMsg</servlet-name>
+		<servlet-class>com.action.user.GetkeyMsg</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetkeyMsg</servlet-name>
+		<url-pattern>/GetkeyMsg</url-pattern>
+	</servlet-mapping>
+	
+	
+</web-app>
